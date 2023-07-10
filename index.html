@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Retilinea Consultoria</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo">Logo</div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="">Quem Somos</a>
+                    <li><a href="">Universidade</a>
+                    <li><a href="">Serviços</a>
+                    <li><a href="">Portfólio</a>
+                </ul>
+            </div>
+        </nav>
+        <div class="content-section">
+            <h1>Retilinea Consultoria!</h1>
+                <div class="button">
+                    <a href="">Faça-nos uma Visita!</a>
+                </div>
+            </div>
+       </div> 
+       <script type="text/javascript">
+        const toggleBtn = document.getElementsByClassName("toggle-btn")[0]
+        const navmenu = document.getElementsByClassName("nav-menu")[0]
+        toggleBtn.addEventListener("click", () =>{
+            navmenu.classList.toggle("active")
+        })
+       </script>   
+</body>
+</html>
